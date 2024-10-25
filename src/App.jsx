@@ -1,3 +1,4 @@
+import Log from "./components/Log";
 import { useState } from "react";
 import Player from "./components/player";
 import GameBoard from "./components/GameBoard";
@@ -17,6 +18,7 @@ function App() {
         </ol>   
         <GameBoard onSelectSquare={handleSelectSquare} activePlayerSymbol={activePlayer}/>
       </div>
+      <Log/>
     </main>
   );
 }
