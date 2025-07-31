@@ -58,6 +58,8 @@ function App() {
     }
   }
   const hasdraw= gameTurns.length ===9 && !winner
+ console.log(players.O)
+console.log(players['O'])
 
 
   function handleSelectSquare(rowIndex, colIndex) {
